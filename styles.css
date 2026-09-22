@@ -25,6 +25,7 @@ h3 { font-size:22px; }
 .button-gold:hover { background:#17365e; }
 .text-link { color:var(--cream); border-bottom:1px solid rgba(209,170,104,.75); padding-bottom:3px; }
 .hero-visual { position:relative; min-height:380px; display:grid; place-items:center; }
+.hero-candle { display:block; width:min(260px, 72%); height:auto; filter:drop-shadow(22px 24px 28px rgba(0,0,0,.42)); }
 .halo { display:none; }
 .candle-card { position:relative; width:min(330px, 80%); aspect-ratio: .72; padding:26px; display:flex; flex-direction:column; justify-content:space-between; color:var(--cream); background-image:radial-gradient(rgba(255,255,255,.04) .7px, transparent .7px), linear-gradient(155deg,#10253e,#08111d); background-size:5px 5px, 100% 100%; border:1px solid rgba(209,170,104,.62); box-shadow:28px 30px 70px rgba(0,0,0,.4); transform:rotate(3deg); }
 .card-topline, .card-footer { display:flex; justify-content:space-between; font-size:9px; letter-spacing:.13em; color:var(--gold-light); }
