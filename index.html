@@ -30,6 +30,11 @@
       </div>
       <div class="hero-visual" aria-label="CandleMe digital candle">
         <img class="hero-candle" src="https://candlemenow.com/candle-mob.webp" alt="CandleMe digital candle" />
+        <script>
+          fetch('transparent-candle.b64')
+            .then(response => response.text())
+            .then(base64 => { document.querySelector('.hero-candle').src = 'data:image/webp;base64,' + base64; });
+        </script>
       </div>
     </section>
 
